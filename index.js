@@ -5,3 +5,7 @@ function printMessage(message) {
 }
 
 printMessage('This is a custom message');
+
+function handleError(error) {
+  console.error('Error:', error);
+}

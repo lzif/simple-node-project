@@ -9,3 +9,9 @@ printMessage('This is a custom message');
 function handleError(error) {
   console.error('Error:', error);
 }
+
+try {
+  printMessage('Running safely');
+} catch (error) {
+  handleError(error);
+}

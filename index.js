@@ -15,3 +15,5 @@ try {
 } catch (error) {
   handleError(error);
 }
+
+console.log('Script finished execution');
